@@ -58,9 +58,11 @@ public class Persona{
 		return nombre;
 	}
 	
-	/*
-	 * Documentar y crear test unitario
-	 * */
+	/**
+	 * Método que añade el nombre a una persona.
+	 * 
+	 * @param nombre Nombre de la persona que queremos añadir.
+	 */
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
