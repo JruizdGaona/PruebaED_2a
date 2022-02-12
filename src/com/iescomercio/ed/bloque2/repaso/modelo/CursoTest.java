@@ -28,7 +28,13 @@ class CursoTest {
 
 	@Test
 	void testAniadirAlumno() {
-		fail("Not yet implemented");
+		Persona p1 = new Persona("73489237Y", "Sandra", "García");
+		Persona p2 = new Persona("74947573G", "Marta", "Gómez");
+		Curso c = new Curso();
+		
+		c.aniadirAlumno(p1);
+		c.aniadirAlumno(p2);
+
 	}
 
 	@Test
