@@ -33,9 +33,13 @@ public class Persona{
 	}
 	
 	
-	/*
-	 * Documentar y crear test unitario
-	 * */
+	/**
+	 * Método que añade el valor del DNI a una persona
+	 * 
+	 * @param dni DNI que queremos añadir a la persona.
+	 * 
+	 * @throws Exception Si el último carácter del DNI no es una letra.
+	 */
 	public void setDni(String dni) throws Exception {
 		//comprobacion de si el ultimo caracter es una letra
 		if(Character.isLetter(dni.charAt(dni.length()-1))) {
