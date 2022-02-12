@@ -1,5 +1,13 @@
 package com.iescomercio.ed.bloque2.repaso.modelo;
-
+/**
+ * Esta clase permite crearnos un objeto de tipo persona, añadiendo como parámetros su DNI, nombre y apellido.
+ * 
+ * @author Javier Ruiz de Gaona
+ * 
+ * @version 11.0
+ * @since 11.0
+ *
+ */
 public class Persona{
 	
 	private String dni;
