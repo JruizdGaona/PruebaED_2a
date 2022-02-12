@@ -22,16 +22,16 @@ public class Curso {
 		}
 	}
 	
-	/*
-	 * Documentar y crear test unitario
-	 * */
+	/**
+	 * Este método añade un alumno al curso.
+	 * 
+	 * @param p Persona que añadimos al curso.
+	 */
 	public void aniadirAlumno(Persona p) {
 		listaAlumnos.add(p);
 	}
 	
-	/*
-	 * Documentar y crear test unitario
-	 * */
+
 	public Boolean estaRegistrado(String dni) {
 		int i =0;
 		Boolean encontrado=false;
