@@ -53,7 +53,10 @@ class PersonaTest {
 
 	@Test
 	void testSetNombre() {
-		fail("Not yet implemented");
+		String nombre = "Antonio";
+		new Persona().setNombre(nombre);
+		String nombre1 = "Iván";
+		new Persona().setNombre(nombre1);
 	}
 	
 	@Test
