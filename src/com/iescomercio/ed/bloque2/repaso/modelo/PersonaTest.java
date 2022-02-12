@@ -22,14 +22,19 @@ class PersonaTest {
 		String dniEsp2 = "87654321B";
 		assertEquals(dniEsp2, dniRec2);
 	}
-
+	
 	@Test
-	void testSetDni() {
-		fail("Not yet implemented");
+	void testGetNombre() {
+		String nomRec = new Persona("12345678A", "Pedro", "Gómez").getNombre();
+		String nomEsp = "Pedro";
+		assertEquals(nomEsp, nomRec);
+		String nomRec2 = new Persona("87654321B", "Juan", "Pérez").getNombre();
+		String nomEsp2 = "Juan";
+		assertEquals(nomEsp2, nomRec2);
 	}
 
 	@Test
-	void testGetNombre() {
+	void testSetDni() {
 		fail("Not yet implemented");
 	}
 
