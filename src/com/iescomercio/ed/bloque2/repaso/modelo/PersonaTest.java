@@ -42,19 +42,22 @@ class PersonaTest {
 		String apEsp2 = "Pérez";
 		assertEquals(apEsp2, apRec2);
 	}
-
+	
 	@Test
-	void testSetDni() {
-		fail("Not yet implemented");
+	void testSetApellido1() {
+		String apellido = "Sancho";
+		new Persona().setApellido1(apellido);
+		String apellido1 = "Dome";
+		new Persona().setApellido1(apellido1);
 	}
 
 	@Test
 	void testSetNombre() {
 		fail("Not yet implemented");
 	}
-
+	
 	@Test
-	void testSetApellido1() {
+	void testSetDni() {
 		fail("Not yet implemented");
 	}
 
