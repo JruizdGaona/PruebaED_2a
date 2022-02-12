@@ -50,9 +50,9 @@ public class Curso {
 		return encontrado;
 	}
 	
-	/*
-	 * Documentar y crear test unitario
-	 * */
+	/**
+	 * Método constructor de la clase.
+	 */
 	public Curso() {
 		listaAlumnos= new ArrayList<Persona>();
 	}
