@@ -32,6 +32,16 @@ class PersonaTest {
 		String nomEsp2 = "Juan";
 		assertEquals(nomEsp2, nomRec2);
 	}
+	
+	@Test
+	void testGetApellido1() {
+		String apRec = new Persona("12345678A", "Pedro", "Gómez").getApellido1();
+		String apEsp = "Gómez";
+		assertEquals(apEsp, apRec);
+		String apRec2 = new Persona("87654321B", "Juan", "Pérez").getApellido1();
+		String apEsp2 = "Pérez";
+		assertEquals(apEsp2, apRec2);
+	}
 
 	@Test
 	void testSetDni() {
@@ -40,11 +50,6 @@ class PersonaTest {
 
 	@Test
 	void testSetNombre() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	void testGetApellido1() {
 		fail("Not yet implemented");
 	}
 
