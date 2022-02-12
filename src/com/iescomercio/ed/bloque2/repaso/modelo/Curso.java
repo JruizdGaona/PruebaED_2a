@@ -2,7 +2,17 @@ package com.iescomercio.ed.bloque2.repaso.modelo;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * Esta clase permite añadir, eliminar, mostrar el número de alumnos y comprobar si un alumno pertenece a la clase o no.
+ * Los alumnos se almacenan en una Lista de personas.
+ * 
+ * @author Javier Ruiz de Gaona
+ * 
+ * @version 11.0
+ * 
+ * @since 11.0
+ *
+ */
 public class Curso {
 	
 	private List<Persona> listaAlumnos;
