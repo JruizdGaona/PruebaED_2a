@@ -8,9 +8,15 @@ public class Persona{
 	
 	public Persona() {}
 	
-	/*
-	 * Documentar y crear test unitario
-	 * */
+	/**
+	 * Constructor de la clase Persona, introduce el dni, nombre y apellido de ésta.
+	 * 
+	 * @param dni DNI de la persona.
+	 * 
+	 * @param nombre Nombre de la persona.
+	 * 
+	 * @param apellido1 Apellido de la persona.
+	 */
 	public Persona(String dni, String nombre, String apellido1) {
 		this.dni = dni;
 		this.nombre = nombre;
