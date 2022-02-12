@@ -31,7 +31,13 @@ public class Curso {
 		listaAlumnos.add(p);
 	}
 	
-
+	/**
+	 * Este método nos indica si un alumno está resgistrado en el curso o no
+	 * 
+	 * @param dni DNI del alumno que queremos comprobar.
+	 * 
+	 * @return Devuelve "True" si el alumno está registrado, devolverá "False" si no lo está.
+	 */
 	public Boolean estaRegistrado(String dni) {
 		int i =0;
 		Boolean encontrado=false;
