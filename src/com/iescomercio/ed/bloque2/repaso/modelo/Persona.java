@@ -49,9 +49,11 @@ public class Persona{
 		}
 	}
 	
-	/*
-	 * Documentar y crear test unitario
-	 * */
+	/**
+	 * Método que retorna el nombre de una persona.
+	 * 
+	 * @return El nombre de la persona.
+	 */
 	public String getNombre() {
 		return nombre;
 	}
