@@ -2,6 +2,8 @@ package com.iescomercio.ed.bloque2.repaso.modelo;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import java.util.ArrayList;
+
 import org.junit.jupiter.api.Test;
 
 class CursoTest {
@@ -50,7 +52,14 @@ class CursoTest {
 
 	@Test
 	void testCurso() {
-		fail("Not yet implemented");
+		ArrayList<Persona> lista = new ArrayList<>();
+		Curso c = new Curso();
+		Persona p1 = new Persona("73849375H","June","Garcia");
+		
+		lista.add(p1);
+		c.aniadirAlumno(p1);
+		
+		assertEquals(lista.size(), c.numeroAlumnos());
 	}
 
 	@Test
